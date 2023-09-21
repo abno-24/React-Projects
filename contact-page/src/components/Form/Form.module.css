@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.form_bx{
+    display: flex;
+    flex-direction: column;
+}
+.form_bx form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.btn{
+    background-color: #2e2e2e;
+}
+.btn_bx{
+    display: flex;
+    gap: 32px;
+}
+.email_bx{
+    margin-top: 17px;
+    margin-bottom: 23px;
+}
+.email_btn{
+    color: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    width: 100%;
+    background: #fff;
+}
+.form_inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.form_inputs input{
+    height: 40px;
+    padding: 0 8px;
+}
+.form_inputs textarea{
+    padding: 10px 8px;
+}
+.form_inputs label{
+    font-size: 14px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: #fff;
+    padding: 0 8px;
+}
+.submit_btn{
+    max-width: 220px;
+    background-color: #2e2e2e;
+    align-self: end;
+}
